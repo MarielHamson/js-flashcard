@@ -1,0 +1,14 @@
+p{
+  display: none;
+  font-size: 18px;
+}
+
+#header{
+    display: block;
+}
+
+li{
+    font-size: 24px;
+    cursor: pointer;
+    color: #0088cc;
+}
