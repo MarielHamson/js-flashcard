@@ -1,0 +1,32 @@
+$(document).ready(function(){
+    $("#open-variable").click(function(){
+        $("#close-variable").toggle();
+    });
+    $("#close-variable").click(function(){
+        $("#close-variable").toggle();
+    });
+    $("#open-method").click(function(){
+        $("#close-method").toggle();
+    });
+    $("#close-method").click(function(){
+        $("#close-method").toggle();
+    });
+    $("#open-arguments").click(function(){
+        $("#close-arguments").toggle();
+    });
+    $("#close-arguments").click(function(){
+        $("#close-arguments").toggle();
+    });
+    $("#open-booleans").click(function(){
+        $("#close-booleans").toggle();
+    });
+    $("#close-booleans").click(function(){
+        $("#close-booleans").toggle();
+    });
+    $("#open-alert").click(function(){
+        $("#close-alert").toggle();
+    });
+    $("#close-alert").click(function(){
+        $("#close-alert").toggle();
+    });
+});
